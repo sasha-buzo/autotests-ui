@@ -3,10 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        h6 {
+            font-size:30px;
+        }
+        .h6-text {
+            color: red;
+        }
+        .h2-text {
+            color: gold;
+        }
+        #h1-text {
+            font-size: 50px;
+        }
+        ul li {
+            color: green;
+        }
+        input[type="text"]{
+            background-color: blue;
+        }
+         input[type="text"]:hover{
+            background-color: gray;
+        }
+        a:hover{
+            color: blueviolet;
+        }
+        li::marker{
+            color: red;
+        }
+        ul > li:nth-child(1) {
+        color: blue;
+        }
+    </style>
 </head>
 <body>
-<h1>H1 text</h1>
+<h1 id="h1-text">H1 text</h1>
 <h2>H2 text</h2>
+<h6 class ="h6-text h2-text">H6 text</h6>
 <p>Work Successfully Submitted!</p>
 <ul>
     <li>item 1</li>
@@ -16,8 +49,18 @@
     <li>item 1</li>
     <li>item 2</li>
 </ol>
-<input placeholder="test">
+<input type="text" value="123" placeholder="test">
 <textarea></textarea>
 <button>Submit</button>
+<a href="https://www.transcribeme.com/">Transcribeme</a>
+<div class="ns">
+    <p>1</p>
+    <p>2</p>
+    <h1>Hi</h1>
+    <ul>
+    <li>item 1</li>
+    <li>item 2</li>
+</ul>
+</div>
 </body>
 </html>
